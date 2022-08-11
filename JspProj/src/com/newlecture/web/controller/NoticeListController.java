@@ -41,7 +41,7 @@ public class NoticeListController extends HttpServlet {
 		  int page = 1; 
 		  if(page_ != null) 
 			  page = Integer.parseInt(page_);
-		 
+		 //test
 
 		NoticeService service = new NoticeService();
 		List<Notice> list = service.getNoticeList(field, query, page);
